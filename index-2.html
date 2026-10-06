@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en"><head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Zesta Orange Soda – Fresh • Fizzy • Fun</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:wght@500;800&family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet">
+<style>
+:root{--clay:#C96333;--sun:#F9D26B;--cream:#FDF1C8;--tang:#E58237;--amber:#F0A03A;--ink:#4A1F0C;
+box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+html{scroll-padding-top:env(safe-area-inset-top,0px);scroll-behavior:smooth}
+*,*:before,*:after{box-sizing:inherit}
+body{margin:0;background:var(--clay);color:var(--cream);font:400 18px/1.6 'DM Sans',system-ui,sans-serif}
+h1,h2,h3{font-family:'Bricolage Grotesque','DM Sans',sans-serif;margin:0;line-height:1.05}
+a{color:inherit}
+:focus-visible{outline:3px solid var(--sun);outline-offset:3px}
+.wrap{max-width:1080px;margin:0 auto;padding:0 24px}
+nav{position:sticky;top:env(safe-area-inset-top,0px);z-index:5;background:var(--clay);border-bottom:2px solid var(--amber)}
+nav .wrap{display:flex;justify-content:space-between;align-items:center;height:60px}
+nav b{font:800 26px 'Bricolage Grotesque';color:var(--sun);letter-spacing:.02em}
+nav div a{margin-left:22px;text-decoration:none;font-weight:500}
+nav div a:hover{color:var(--sun)}
+.hero{position:relative;overflow:hidden;text-align:center;padding:40px 0 64px}
+.hero img{width:min(560px,86%);height:auto;display:block;margin:0 auto}
+.hero p{font-size:22px;max-width:30ch;margin:8px auto 28px}
+.btn{display:inline-block;background:var(--sun);color:var(--ink);font-weight:700;padding:14px 28px;border-radius:999px;text-decoration:none;transition:transform .15s}
+.btn:hover{transform:scale(1.05)}
+.btn.alt{background:transparent;color:var(--cream);border:2px solid var(--cream);margin-left:10px}
+.bub{position:absolute;bottom:-30px;border-radius:50%;border:2px solid rgba(253,241,200,.55);animation:rise linear infinite}
+@keyframes rise{to{transform:translateY(-760px);opacity:0}}
+@media (prefers-reduced-motion:reduce){.bub{display:none}}
+section{padding:80px 0}
+h2{font-size:clamp(34px,5vw,56px);font-weight:800;margin-bottom:36px}
+.feat{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:28px 40px}
+.feat div{display:flex;gap:18px;align-items:flex-start}
+.feat i{flex:none;width:52px;height:52px;border:2px solid var(--cream);border-radius:50%;display:grid;place-items:center;font-style:normal;font-size:22px}
+.feat h3{font-size:22px;color:var(--sun)}
+.feat p{margin:4px 0 0;font-size:16px}
+.cream{background:var(--cream);color:var(--ink)}
+.cream h2{color:var(--clay)}
+.split{display:grid;grid-template-columns:1.1fr 1fr;gap:56px;align-items:center}
+.split p{max-width:46ch}
+.slice{width:100%;max-width:380px;margin:auto;display:block}
+.tbl{background:#fff8de;border:3px solid var(--clay);border-radius:14px;padding:8px 22px}
+.tbl h3{color:var(--clay);font-size:24px;padding:12px 0 6px}
+.tbl table{width:100%;border-collapse:collapse;font-size:17px}
+.tbl th,.tbl td{text-align:left;padding:10px 0;border-top:1px solid #e3b98a}
+.tbl td:last-child,.tbl th:last-child{text-align:right}
+.tbl small{display:block;padding:12px 0 8px;font-size:14px;line-height:1.5}
+.amber{background:var(--amber);color:var(--ink)}
+.amber h2{color:var(--ink)}
+.facts{display:grid;grid-template-columns:repeat(auto-fit,minmax(220px,1fr));gap:28px}
+.facts dt{font-weight:700;font-size:15px;margin-bottom:2px}
+.facts dd{margin:0;font:800 28px 'Bricolage Grotesque'}
+.serve{display:flex;gap:40px;align-items:center;flex-wrap:wrap;justify-content:space-between}
+.serve p{max-width:38ch;margin:0}
+footer{background:var(--ink);color:var(--cream);padding:48px 0;font-size:15px}
+footer .wrap{display:flex;justify-content:space-between;gap:24px;flex-wrap:wrap}
+footer b{font:800 30px 'Bricolage Grotesque';color:var(--sun)}
+@media(max-width:760px){.split{grid-template-columns:1fr}nav div a:nth-child(n+3){display:none}section{padding:56px 0}}
+</style></head>
+<body>
+<nav><div class="wrap"><b>Zesta</b><div><a href="#flavour">Flavour</a><a href="#story">Story</a><a href="#facts">Nutrition</a><a href="#serve">Serve</a></div></div></nav>
+
+<header class="hero">
+<span class="bub" style="left:8%;width:14px;height:14px;animation-duration:7s"></span>
+<span class="bub" style="left:20%;width:26px;height:26px;animation-duration:9s;animation-delay:1s"></span>
+<span class="bub" style="left:34%;width:10px;height:10px;animation-duration:6s;animation-delay:2s"></span>
+<span class="bub" style="left:66%;width:18px;height:18px;animation-duration:8s;animation-delay:.5s"></span>
+<span class="bub" style="left:80%;width:30px;height:30px;animation-duration:10s;animation-delay:3s"></span>
+<span class="bub" style="left:92%;width:12px;height:12px;animation-duration:7s;animation-delay:1.5s"></span>
+<div class="wrap">
+<img src="images/logo.png" alt="Zesta orange soda logo: a half orange slice under the word Zesta">
+<p>A bright, bubbly orange soda made for hot days, quick breaks and big laughs.</p>
+<a class="btn" href="#serve">Find your Zesta</a><a class="btn alt" href="#flavour">See what's inside</a>
+</div></header>
+
+<section id="flavour"><div class="wrap">
+<h2>Sunny flavour, extra fizz.</h2>
+<div class="feat">
+<div><i>💧</i><span><h3>Real orange taste</h3><p>Made with orange juice concentrate and natural flavour.</p></span></div>
+<div><i>🫧</i><span><h3>Extra fizzy</h3><p>Sharp bubbles that last to the final sip.</p></span></div>
+<div><i>❄</i><span><h3>Best served chilled</h3><p>Ice cold is when Zesta tastes its brightest.</p></span></div>
+<div><i>☀</i><span><h3>Bright, sunny flavour</h3><p>Sweet, zesty and easy to love.</p></span></div>
+<div><i>♻</i><span><h3>Recyclable bottle</h3><p>Finish your drink, then recycle the bottle.</p></span></div>
+<div><i>✓</i><span><h3>No artificial colours*</h3><p>Colour you can taste, nothing you can't pronounce.</p></span></div>
+</div></div></section>
+
+<section id="story" class="cream"><div class="wrap split">
+<div><h2>Fresh from the peel.</h2>
+<p>Zesta started with one idea: an orange soda that tastes like the first bite of a cold, juicy slice. Bright. Bubbly. Never boring.</p>
+<p>Pop it open on a hot afternoon, a quick break or a big laugh with friends. Each 250 ml bottle is the right size to finish while it's still ice cold.</p></div>
+<img class="slice" alt="Half orange slice from the Zesta logo" src="images/slice.png">
+</div></section>
+
+<section id="facts"><div class="wrap split">
+<div><h2>What's in the bottle.</h2>
+<p>Orange flavoured carbonated drink. Simple ingredients, nothing hidden.</p></div>
+<div class="tbl cream"><h3>Typical values per 100 ml</h3>
+<table><tr><th>Energy</th><td>42 kcal</td></tr><tr><th>Total sugars</th><td>10.4 g</td></tr><tr><th>Fat</th><td>0 g</td></tr><tr><th>Protein</th><td>0 g</td></tr><tr><th>Sodium</th><td>8 mg</td></tr></table>
+<small><b>Ingredients:</b> carbonated water, sugar, orange juice concentrate, acidity regulator, natural flavour.</small></div>
+</div></section>
+
+<section id="serve" class="amber"><div class="wrap">
+<div class="serve"><div><h2>Serve chilled.</h2><p>Store in a cool, dry place away from direct sunlight.</p></div>
+<dl class="facts"><div><dt>Net quantity</dt><dd>250 ml</dd></div><div><dt>Best before</dt><dd>6 months from manufacture</dd></div></dl></div>
+</div></section>
+
+<footer><div class="wrap">
+<div><b>Zesta</b><br>Fresh • Fizzy • Fun</div>
+<div>Packed &amp; marketed by<br>Zesta Beverages Pvt. Ltd.<br>Mumbai, Maharashtra – 400064</div>
+<div style="max-width:30ch">*No artificial colours. Please recycle the bottle after use.</div>
+</div></footer>
+</body></html>
